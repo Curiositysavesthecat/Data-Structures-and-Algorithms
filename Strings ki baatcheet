@@ -1,0 +1,43 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+//reading a list of strings 
+void readline(char a[], int n , char delim ){
+  //we have to take input into the character array ,including spaces;
+  char ch = cin.get();
+  int i = 0 ;
+
+  while(ch!=delim ){
+    a[i]= ch ;
+    i++ ;
+    if(i>=n-1){
+      break;
+     
+    }
+     ch = cin.get();
+
+    
+  }
+
+
+}
+
+int main() {
+  char a[1000];
+  readline(a,1000, '%');
+  cout<< a ;
+
+}
+  
+
+
+
+
+    
+
+
+
+
+
+    
+
