@@ -1,5 +1,4 @@
 #include<iostream>
-#include<vector>
 using namespace std;
 //reading a list of strings 
 void readline(char a[], int n , char delim ){
